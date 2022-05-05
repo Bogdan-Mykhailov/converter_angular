@@ -1,0 +1,81 @@
+.wrapper {
+  display:flex;
+  height:750px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  background-color: #58788C;
+  width: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F29F80;
+}
+
+.selectionContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+.selectionContainer p {
+  font-size: 20px;
+  font-family: "Museo Sans Cyrl", monospace;
+  font-weight: 900;
+  color: #F29F80;
+}
+
+select {
+  background-color: #F29F80;
+  color: #58788C;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  font-weight: 900;
+  font-family: 'Museo Sans Cyrl', monospace;
+  text-align: center;
+}
+
+select:focus {
+  outline:none;
+}
+
+button {
+  background-color: #58788C;
+  border: 2px solid #F29F80;
+  border-radius: 5px;
+  color: #F29F80;
+  font-size: 25px;
+  font-family: "Museo Sans Cyrl", monospace;
+}
+
+button:hover {
+  background-color: #F29F80;
+  color: #58788C;
+  border: none;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.resultContainer {
+  display: flex;
+  background-color: #F29F80;
+  margin: 10px;
+  width: 200px;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+
+
+.resultContainer p {
+  color: #58788C;
+  font-family: "Museo Sans Cyrl", monospace;
+  font-weight: 700;
+}
