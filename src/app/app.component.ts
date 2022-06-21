@@ -16,12 +16,10 @@ export class AppComponent {
 
   changeBase(a: string) {
     this.base = a;
-
   }
 
   convertTo(b: string) {
-    this.currency2 = b
-
+    this.currency2 = b;
   }
 
   constructor(private currency: CurrencyapidataService) {
@@ -47,6 +45,6 @@ convert() {
       this.result = this.currentJson.rates.EUR
     }
   })
-
 }
+
 }
